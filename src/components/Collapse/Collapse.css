@@ -1,0 +1,35 @@
+.collapse {
+  color: white;
+  background-color: #ff6060;
+  height: 47px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  border-radius: 5px;
+  width: 100%;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 24px;
+  font-weight: 500;
+  padding-left: 19px;
+}
+
+.description {
+  font-weight: 400;
+  font-size: 24px;
+  width: 100%;
+  padding: 36px 31px;
+  z-index: 3;
+  background-color: #f7f7f7;
+  border-radius: 0 0 15px 15px;
+}
+
+.pDescription {
+  text-align: justify;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}

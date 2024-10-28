@@ -1,0 +1,54 @@
+.Erreur-404{
+    display: flex;
+    justify-content: center;
+    color: #FF6060;
+    font-weight: bold;
+    font-size: 80px;
+    margin-top: -3rem;
+}
+
+
+.Erreur-Oops{
+    display: flex;
+    justify-content: center;
+    color: #FF6060;
+    margin-top: -9rem;
+
+}
+.nav-links-Erreur{
+    display: flex;
+    justify-content: center;
+    color: #FF6060;
+    margin-bottom: 2rem;
+    margin-top: 6rem;
+    text-decoration: underline;
+
+}
+
+.nav-links-Erreur a{
+   
+    color: #FF6060;
+ 
+
+}
+@media screen and (max-width: 760px) {
+    .Erreur-404 {
+        margin-top: 8rem;
+       font-size: 50px;
+    }
+    .Erreur-Oops{
+        display: flex;
+        text-align: center;
+    margin-top: -6rem;
+   
+
+}
+
+.nav-links-Erreur{
+   margin-top: 8rem;
+   margin-bottom: 5rem;
+
+}
+
+ }
+

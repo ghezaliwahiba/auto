@@ -1,0 +1,165 @@
+.slideLogement {
+  margin-left: 4%;
+  position: absolute;
+  object-fit: cover;
+  border-radius: 25px;
+  width: 90%;
+  height: 650px;
+}
+.banner-fiche {
+  height: 650px;
+}
+
+.btns-directionnels {
+  width: 20px;
+  height: 300px;
+}
+
+.FicheLogement {
+  height: 100%;
+  width: 100%;
+}
+
+.InfoSection {
+  margin-top: 10px;
+  width: 95%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 5%;
+}
+
+.InfoSection p {
+  margin-top: 0;
+}
+
+.FlechDroite {
+  position: absolute;
+
+  left: 90%;
+  top: 40%;
+  width: 3%;
+}
+
+.FlechGauche {
+  position: absolute;
+
+  width: 3%;
+  left: 7%;
+  top: 40%;
+}
+
+.fiche-infos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.divTitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.ficheTitle {
+  color: #ff6060;
+}
+
+.divTitle {
+  padding-left: 4%;
+}
+
+.coucou {
+  display: flex;
+  flex-direction: row;
+}
+.DescrEquip {
+  display: flex;
+  flex-direction: row;
+  column-gap: 1rem;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  width: 95%;
+  padding-left: 3%;
+}
+
+.pDescription {
+  color: #ff6060;
+  width: 100%;
+  margin: auto;
+}
+
+h2 {
+  margin-top: 5px;
+  font-size: 24px;
+  font-weight: 500;
+  padding-left: 19px;
+}
+.collapse {
+  width: 100%;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+li {
+  list-style-type: none;
+}
+
+.Divcollapse__logement {
+  width: 50%;
+
+  border-radius: 15px;
+}
+
+@media screen and (max-width: 992px) {
+  .FlechDroite {
+    margin-left: -40px;
+    width: 8%;
+    height: 10%;
+  }
+
+  .FlechGauche {
+    width: 8%;
+    height: 10%;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .divTitle {
+    width: 100%;
+  }
+  .ficheTitle {
+    width: 100%;
+    font-size: medium;
+  }
+
+  .DescrEquip {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .Divcollapse__logement {
+    width: 100%;
+  }
+
+  .coucou {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .FlechDroite {
+    margin-left: -25px;
+    width: 8%;
+    height: 10%;
+  }
+
+  .FlechGauche {
+    width: 8%;
+    height: 10%;
+  }
+}
